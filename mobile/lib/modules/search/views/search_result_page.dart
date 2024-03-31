@@ -178,7 +178,7 @@ class SearchResultPage extends HookConsumerWidget {
             if (isNewSearch.value) {
               isNewSearch.value = false;
             } else {
-              context.popRoute(true);
+              context.maybePop(true);
             }
           },
           icon: const Icon(Icons.arrow_back_ios_rounded),

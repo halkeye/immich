@@ -14,7 +14,7 @@ class BackupOptionsPage extends StatelessWidget {
           "Backup options",
         ),
         leading: IconButton(
-          onPressed: () => context.popRoute(true),
+          onPressed: () => context.maybePop(true),
           splashRadius: 24,
           icon: const Icon(
             Icons.arrow_back_ios_rounded,
