@@ -17,3 +17,4 @@ RUN npm run build
 WORKDIR /import
 
 ENTRYPOINT ["node", "/usr/src/app/dist"]
+LABEL org.opencontainers.image.source="https://github.com/immich-app/immich"

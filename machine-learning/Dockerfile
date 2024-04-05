@@ -93,3 +93,4 @@ COPY start.sh log_conf.json ./
 COPY app .
 ENTRYPOINT ["tini", "--"]
 CMD ["./start.sh"]
+LABEL org.opencontainers.image.source="https://github.com/immich-app/immich"

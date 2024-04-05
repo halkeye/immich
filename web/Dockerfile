@@ -10,3 +10,4 @@ ENV CHOKIDAR_USEPOLLING=true
 EXPOSE 24678
 EXPOSE 3000
 ENTRYPOINT ["/sbin/tini", "--", "/bin/sh"]
+LABEL org.opencontainers.image.source="https://github.com/immich-app/immich"

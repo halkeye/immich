@@ -19,3 +19,4 @@ COPY --chown=$MAMBA_USER:$MAMBA_USER app .
 
 ENTRYPOINT ["/usr/local/bin/_entrypoint.sh"]
 CMD ["./start.sh"]
+LABEL org.opencontainers.image.source="https://github.com/immich-app/immich"
